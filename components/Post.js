@@ -105,7 +105,7 @@ const Post = ({ id, userName, userImage, image, caption }) => {
             {hasLiked ? (
               <HeartIconFilled
                 onClick={likePost}
-                className="btn fill-red-500 cursor-pointer"
+                className="btn text-red-500 cursor-pointer"
               />
             ) : (
               <HeartIcon onClick={likePost} className="btn cursor-pointer" />

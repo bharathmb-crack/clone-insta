@@ -32,9 +32,6 @@ const Modal = () => {
       setSelectedFile(readerEvent.target.result);
     };
   };
-  console.log("----------------------------");
-  console.log(process.env.GOOGLE_ID);
-  console.log("----------------------------");
 
   // {--upload post ---}
   const uploadPost = async () => {
